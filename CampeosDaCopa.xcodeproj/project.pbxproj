@@ -66,6 +66,8 @@
 		F2894DB322427FD300F93576 /* WinnersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2894DB222427FD300F93576 /* WinnersTableViewController.swift */; };
 		F2894DB62242800200F93576 /* WorldCupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2894DB52242800200F93576 /* WorldCupViewController.swift */; };
 		F2894DB82242803100F93576 /* WorldCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2894DB72242803100F93576 /* WorldCup.swift */; };
+		F2894DBB2242A10400F93576 /* WorldCupTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2894DBA2242A10400F93576 /* WorldCupTableViewCell.swift */; };
+		F2894DBE2242BB8800F93576 /* GamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2894DBD2242BB8800F93576 /* GamesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +153,8 @@
 		F2894DB222427FD300F93576 /* WinnersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnersTableViewController.swift; sourceTree = "<group>"; };
 		F2894DB52242800200F93576 /* WorldCupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupViewController.swift; sourceTree = "<group>"; };
 		F2894DB72242803100F93576 /* WorldCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup.swift; sourceTree = "<group>"; };
+		F2894DBA2242A10400F93576 /* WorldCupTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCupTableViewCell.swift; sourceTree = "<group>"; };
+		F2894DBD2242BB8800F93576 /* GamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,6 +305,7 @@
 			children = (
 				F2894DB222427FD300F93576 /* WinnersTableViewController.swift */,
 				F2894DB52242800200F93576 /* WorldCupViewController.swift */,
+				F2894DBC2242A10E00F93576 /* TableCell */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -311,6 +316,15 @@
 				F2894DB72242803100F93576 /* WorldCup.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		F2894DBC2242A10E00F93576 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				F2894DBA2242A10400F93576 /* WorldCupTableViewCell.swift */,
+				F2894DBD2242BB8800F93576 /* GamesTableViewCell.swift */,
+			);
+			path = TableCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -495,7 +509,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2894DB322427FD300F93576 /* WinnersTableViewController.swift in Sources */,
+				F2894DBE2242BB8800F93576 /* GamesTableViewCell.swift in Sources */,
 				F2894DB82242803100F93576 /* WorldCup.swift in Sources */,
+				F2894DBB2242A10400F93576 /* WorldCupTableViewCell.swift in Sources */,
 				F2894D1F22427DA500F93576 /* AppDelegate.swift in Sources */,
 				F2894DB62242800200F93576 /* WorldCupViewController.swift in Sources */,
 			);
